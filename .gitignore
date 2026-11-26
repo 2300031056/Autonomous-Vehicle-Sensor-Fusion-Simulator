@@ -1,0 +1,31 @@
+# Dependencies and environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Datasets and generated data
+data/
+datasets/
+*.bin
+*.pcd
+*.bag
+
+# Model checkpoints (store large weights separately / Git LFS)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
